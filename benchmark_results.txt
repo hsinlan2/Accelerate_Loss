@@ -1,0 +1,16 @@
+ninja: no work to do.
+GPU: NVIDIA GeForce RTX 4090
+CUDA Version: 12.4
+PyTorch Version: 2.4.0+cu124
+
+
+Loss Computation Benchmark
+Sequence length: 500 positions
+Number of trials: 100
+
+Execution times:
+PyTorch:             0.188 ms
+Custom CUDA kernel:   0.011 ms
+Speedup:              17.09 x
+
+Custom CUDA kernel achieves 17.09 speedup.
